@@ -1,0 +1,12 @@
+{
+    "instructors": [
+        {
+            "id": 1,
+            "avatar_url": "https://google.com",
+            "birth": 1616198400000,
+            "gender": "F",
+            "services": "ENGENHARIA",
+            "created_at": 1616693232493
+        }
+    ]
+}
