@@ -38,3 +38,12 @@ exports.post = function(req, res){
     //return res.send(req.body)
 }
 
+exports.show = function(req, res){
+    const {id} = req.params 
+
+    const foundInstructor = data.instructors.find(function(instrutor){
+        return instrutor.id == id
+})
+    if (!foundInstructor) return res.send("Instructor not found!")
+    return res.render("instructors/show", {instructor: foundInstructor})
+}
