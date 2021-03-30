@@ -2,40 +2,13 @@
     "instructors": [
         {},
         {
-            "id": 1,
-            "avatar_url": "https://google.com",
-            "name": "VICTOR RAONY MORAES LIMA",
-            "birth": 1615334400000,
-            "gender": "M",
-            "services": "natacao,correr, andar, pedalar, dançar",
-            "created_at": 1617035255205
-        },
-        {
             "id": 2,
-            "avatar_url": "https://google.com",
-            "name": "FELIPE",
-            "birth": 1614729600000,
-            "gender": "F",
-            "services": "NATAÇÃO, MUSCULAÇÃO",
-            "created_at": 1617037092792
-        },
-        {
-            "id": 4,
-            "avatar_url": "https://source.unsplash.com/collection/4836861/500x500",
-            "name": "VICTOR RAONY MORAES LIMA",
-            "birth": 820022400000,
-            "gender": "M",
-            "services": "ENGENHARIA, MUSCULAÇÃO",
-            "created_at": 1617039595296
-        },
-        {
-            "id": 5,
             "avatar_url": "https://google.com",
             "name": "VICTOR RAONY MORAES LIMA",
             "birth": 820022400000,
             "gender": "M",
             "services": "ENGENHARIA",
-            "created_at": 1617068475550
+            "created_at": 1617126081907
         }
     ]
 }
