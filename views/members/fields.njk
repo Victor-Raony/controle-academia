@@ -27,7 +27,7 @@
                 <input 
                 type="email" 
                 name="email" 
-                value="{{ member.name }}"
+                value="{{ member.email }}"
                >
             </div>
         </div>
@@ -64,36 +64,36 @@
             <div>Tipo Sanguíneo</div>
             <div>
                 <select name="blood">
-                    <option value="A1"
-                    {% if members.blood == 'A1' %}selected{% endif %}>
+                    <option value="A+"
+                    {% if members.blood == "A+" %}selected{% endif %}>
                             A+
                     </option>
-                    <option value="A0"
-                    {% if members.blood == 'A0' %}selected{% endif %}>
+                    <option value="A-"
+                    {% if members.blood == "A-" %}selected{% endif %}>
                             A-
                     </option>
-                    <option value="B1"
-                    {% if members.blood == 'B1' %}selected{% endif %}>
+                    <option value="B+"
+                    {% if members.blood == "B+" %}selected{% endif %}>
                             B+
                     </option>
-                    <option value="B0"
-                    {% if members.blood == 'B0' %}selected{% endif %}>
+                    <option value="B-"
+                    {% if members.blood == "B-" %}selected{% endif %}>
                             B-
                     </option>
-                    <option value="AB1"
-                    {% if members.blood == 'AB1' %}selected{% endif %}>
-                            AB
-                    +</option>
-                    <option value="AB0"
-                    {% if members.blood == 'AB0' %}selected{% endif %}>
-                            AB
-                    -</option>
-                    <option value="O1"
-                    {% if members.blood == 'O1' %}selected{% endif %}>
+                    <option value="AB+"
+                    {% if members.blood == "AB+" %}selected{% endif %}>
+                            AB+
+                    </option>
+                    <option value="AB-"
+                    {% if members.blood == "AB-" %}selected{% endif %}>
+                            AB-
+                    </option>
+                    <option value="O+"
+                    {% if members.blood == "O+" %}selected{% endif %}>
                             0+
                     </option>
-                    <option value="O0"
-                    {% if members.blood == 'O0' %}selected{% endif %}>
+                    <option value="O-"
+                    {% if members.blood == "O-" %}selected{% endif %}>
                             0-
                     </option>
                 </select>
